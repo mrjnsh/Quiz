@@ -1,0 +1,39 @@
+.answer-item {
+          list-style: lower-alpha;
+}
+
+.question-item {
+margin-bottom: 2rem;
+}
+
+.question-item-correct{
+          color: red;
+}
+
+.question-item-incorrect{
+          color: green;
+}
+
+.alert-title {
+          font-weight: bold;
+          margin-bottom: 5rem;
+          font-size: 2rem;
+}
+
+#alert {
+          font-size: 1.25rem;
+          position: absolute;
+          display: none;
+          top :50%;
+          left : 50%;
+          transform: translate(-50px, -50px);
+          text-align: center;
+          padding: 1rem;
+          background-color: hsl(100,80%,80%);
+          border-radius: .5rem;
+          color: hsl(100,80%,20%);
+}
+
+#alert.active{
+          display : block;
+}
